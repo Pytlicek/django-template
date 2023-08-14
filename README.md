@@ -4,6 +4,7 @@
 - `python3.10 -m virtualenv .venv`
 - `pip install -U poetry`
 - `poetry install`
+- `poetry shell`
 
 ### Configuration
 - Migrations:
@@ -19,3 +20,4 @@
 - Django Admin URL: [http://127.0.0.1:8000/admin/](http://127.0.0.1:8000/admin/)
 - Login to Django Admin with User/Pass fe: `info@example.com`/`info@example.com`
 - API URL: http://127.0.0.1:8000/api/docs#/
+- Optionally add packages with: `poetry add django-environ`
